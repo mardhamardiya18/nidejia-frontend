@@ -21,7 +21,7 @@ export default {
         "black-panel": "#141414",
         "text-primary": "#FFFFFF",
         "text-secondary": "#A8A8A8",
-        "accent": "#FF9357",
+        accent: "#FF9357",
       },
     },
   },

@@ -8,7 +8,7 @@ body{
 }
 
 .logo{
-  @apply text-[24px] text-text-primary font-bold
+  @apply text-[24px] text-text-primary font-bold flex items-center gap-[10px]
 }
 
 .navbar{
@@ -16,9 +16,9 @@ body{
 }
 
 .btn-primary{
-  @apply bg-accent px-[12px] py-[24px] rounded-[50px] text-black-panel font-semibold hover:bg-orange-500 focus:ring focus:ring-yellow-200
+  @apply bg-accent px-[24px] py-[12px] rounded-[50px] text-black-panel font-semibold hover:bg-orange-500 focus:ring focus:ring-yellow-200 transition
 }
 
 .btn-second{
-  @apply px-[12px] py-[24px] rounded-[50px] font-semibold bg-black-button text-white hover:bg-slate-900 focus:ring focus:ring-slate-700
+  @apply px-[24px] py-[12px] rounded-[50px] font-semibold bg-black-button text-white hover:bg-slate-900 focus:ring focus:ring-slate-700 transition
 }
