@@ -15,6 +15,14 @@ export default {
           "2xl": "1130px", // Misalnya untuk breakpoint terbesar
         },
       },
+      colors: {
+        "black-background": "#000000",
+        "black-button": "#323437",
+        "black-panel": "#141414",
+        "text-primary": "#FFFFFF",
+        "text-secondary": "#A8A8A8",
+        "accent": "#FF9357",
+      },
     },
   },
   plugins: [],

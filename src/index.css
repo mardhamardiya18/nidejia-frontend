@@ -4,4 +4,21 @@
 
 body{
   font-family: "Poppins", sans-serif;
+  background: rgba(0, 0, 0, 1);
+}
+
+.logo{
+  @apply text-[24px] text-text-primary font-bold
+}
+
+.navbar{
+  @apply bg-black-panel w-full h-[96px] px-[24px] py-[30px] rounded-[20px]
+}
+
+.btn-primary{
+  @apply bg-accent px-[12px] py-[24px] rounded-[50px] text-black-panel font-semibold hover:bg-orange-500 focus:ring focus:ring-yellow-200
+}
+
+.btn-second{
+  @apply px-[12px] py-[24px] rounded-[50px] font-semibold bg-black-button text-white hover:bg-slate-900 focus:ring focus:ring-slate-700
 }

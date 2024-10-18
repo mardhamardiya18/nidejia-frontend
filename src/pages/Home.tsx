@@ -1,7 +1,7 @@
 export const Home = () => {
   return (
     <>
-      <div className="container bg-rose-400">
+      <div className="container ">
         <p>Welcome to homepage Cari Kos Termurah</p>
       </div>
     </>
