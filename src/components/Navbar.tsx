@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <header className="fixed top-[30px] left-0 right-0 z-20 ">
+    <header className="fixed top-[30px] left-0 right-0 z-50 ">
       <div className=" container navbar w-full flex justify-between items-center">
         <div className="logo">
           <img src="/vite.svg" alt="" />

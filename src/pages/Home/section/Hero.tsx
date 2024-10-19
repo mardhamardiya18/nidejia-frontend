@@ -1,13 +1,13 @@
 export const Hero = () => {
   return (
-    <section className=" relative h-screen ">
+    <section className="relative h-screen ">
       <img
         src="/images/hero-bg.png"
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         alt=""
       />
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-l from-transparent via-black/75 to-black/100 z-10"></div>
-      <div className="relative z-50 text-white p-8 container top-[226px]">
+      <div className="relative z-20 text-white p-8 container top-[226px]">
         <h1 className="text-[55px] font-bold lin">
           Find Glorious Living <br /> And Loving Space
         </h1>
@@ -30,7 +30,7 @@ export const Hero = () => {
       </div>
 
       {/* Panel */}
-      <div className="flex justify-between items-center absolute bottom-0 z-10 container left-1/2 -translate-x-1/2 px-[50px] py-[24px] h-[128px] rounded-[20px] bg-black-panel">
+      <div className="flex justify-between items-center absolute bottom-0 z-10 container left-1/2 translate-y-1/2 -translate-x-1/2 px-[50px] py-[24px] h-[128px] rounded-[20px] bg-black-panel">
         <div className=" flex items-center gap-4">
           <div className=" bg-accent p-5 rounded-full">
             <img src="/images/ic_available.svg" alt="" />
