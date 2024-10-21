@@ -23,6 +23,10 @@ export default {
         "text-secondary": "#A8A8A8",
         accent: "#FF9357",
       },
+
+      gridAutoRows: {
+        "min-auto": "minmax(0, auto)",
+      },
     },
   },
   plugins: [],
